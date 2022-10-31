@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.center-txt {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+header {
+  margin: 20px;
+}
+
+.nav-content {
+  padding: 10px 30px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-content h1 {
+  font-size: 1.5rem;
+}
+
+.nav-content nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-content nav ul li {
+  padding: 0 10px;
+  border-right: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-content nav ul li#contact-section {
+  border-right: none;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#displayed-books {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.books {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.books:nth-child(odd) {
+  background-color: #ccc;
+}
+
+.books-info {
+  display: flex;
+}
+
+button {
+  padding: 5px 8px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.8);
+}
+
+.add-form {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form {
+  padding: 20px 30px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.add {
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  padding: 10px 30px;
+  border: 1px solid black;
+  width: 97.5%;
+  margin: 20px;
+}
+
+footer h2 {
+  font-size: 1.5rem;
+}
+
+#time {
+  display: flex;
+  justify-content: end;
+  padding: 5px;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
